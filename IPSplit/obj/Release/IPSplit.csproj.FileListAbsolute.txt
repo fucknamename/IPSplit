@@ -1,0 +1,10 @@
+C:\code\net\IPSplit\IPSplit\bin\Release\IPSplit.exe
+C:\code\net\IPSplit\IPSplit\bin\Release\IPSplit.pdb
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.Form1.resources
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.Properties.Resources.resources
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.csproj.GenerateResource.cache
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.csproj.CoreCompileInputs.cache
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.exe
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.pdb
+C:\code\net\IPSplit\IPSplit\bin\Release\IPSplit.exe.config
+C:\code\net\IPSplit\IPSplit\obj\Release\IPSplit.csprojAssemblyReference.cache
