@@ -33,6 +33,7 @@ namespace IPSplit
             this.txtsource = new System.Windows.Forms.TextBox();
             this.btnsplit = new System.Windows.Forms.Button();
             this.txtiplist = new System.Windows.Forms.TextBox();
+            this.lblcount = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtsource
@@ -67,11 +68,22 @@ namespace IPSplit
             this.txtiplist.Size = new System.Drawing.Size(327, 218);
             this.txtiplist.TabIndex = 0;
             // 
+            // lblcount
+            // 
+            this.lblcount.AutoSize = true;
+            this.lblcount.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblcount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblcount.Location = new System.Drawing.Point(383, 152);
+            this.lblcount.Name = "lblcount";
+            this.lblcount.Size = new System.Drawing.Size(0, 17);
+            this.lblcount.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(823, 242);
+            this.Controls.Add(this.lblcount);
             this.Controls.Add(this.btnsplit);
             this.Controls.Add(this.txtiplist);
             this.Controls.Add(this.txtsource);
@@ -91,6 +103,7 @@ namespace IPSplit
         private System.Windows.Forms.TextBox txtsource;
         private System.Windows.Forms.Button btnsplit;
         private System.Windows.Forms.TextBox txtiplist;
+        private System.Windows.Forms.Label lblcount;
     }
 }
 

@@ -20,6 +20,8 @@ namespace IPSplit
                 return;
             }
 
+            lblcount.Text = "";
+
             foreach (var iipp in ips)
             {
                 if (string.IsNullOrEmpty(iipp) || iipp.Trim()?.Length == 0)
@@ -53,6 +55,7 @@ namespace IPSplit
                 }
             }
 
+            lblcount.Text = $"{iplist.Count}个";
             txtiplist.Text = string.Join("\r\n", iplist.ToArray());
         }
 
